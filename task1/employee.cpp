@@ -10,10 +10,6 @@ Employee::Employee(std::string f_name, std::string l_name, Gender sex, unsigned 
 {
 }
 
-Employee::~Employee()
-{
-}
-
 void Employee::promote()
 {
     category++;
