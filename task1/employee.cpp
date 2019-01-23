@@ -17,7 +17,8 @@ void Employee::promote()
 
 void Employee::demote()
 {
-    category--;
+    if (category > 0)
+        category--;
 }
 
 std::string Employee::getSex()
